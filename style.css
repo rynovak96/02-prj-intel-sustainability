@@ -38,20 +38,20 @@ header > div {
 header h1 {
   margin-top: 20px;          /* Space above the heading */
   margin-bottom: 10px;       /* Space below the heading */
-  font-size: 2.7em;          /* Slightly smaller for better balance */
+  font-size: 3em;            /* Larger font size for hero heading */
   font-weight: bold;         /* Make the heading bold */
 }
 
 /* Make sure header paragraph is also white and larger */
 header p {
   color: white;
-  font-size: 1.1em;          /* Slightly smaller for better balance */
+  font-size: 1.2em;          /* Larger font size for hero paragraph */
 }
 
 /* Center the info line above the timeline cards */
 body > p {
   text-align: center;
-  font-size: 1em;            /* Slightly smaller for better balance */
+  font-size: 1.1em; /* Slightly larger for visibility */
   margin-bottom: 18px; /* Space below the line */
 }
 
@@ -274,7 +274,7 @@ section {
     display: none;
   }
   .card-front h2 {
-    font-size: 2em;    /* Slightly smaller date font */
+    font-size: 2.2em;      /* Make the date bigger */
     margin: auto 0;
   }
   /* When card is active (clicked), show all content */
@@ -284,10 +284,6 @@ section {
     display: block;
   }
   .card.active .card-front h2 {
-    font-size: 1.2em;  /* Slightly smaller when expanded */
-  }
-  .card-front p,
-  .card-back p {
-    font-size: 0.9em;  /* Slightly smaller paragraph */
+    font-size: 1.4em; /* Make date smaller when expanded */
   }
 }
